@@ -9,8 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4051045474048641549}
-  - component: {fileID: 6001576509518902043}
-  - component: {fileID: 6564216988355848556}
+  - component: {fileID: 7248459884643562310}
   m_Layer: 14
   m_Name: Quest
   m_TagString: Untagged
@@ -39,20 +38,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 5}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!65 &6001576509518902043
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6001576509518902023}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6564216988355848556
+--- !u!114 &7248459884643562310
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -65,8 +51,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMesh: {fileID: 0}
-  text: Quest
-  size: 0.2
+  text: Quest Title
+  size: 0.1
   textAnchor: 4
   textAlignment: 0
   color: {r: 0, g: 0, b: 0, a: 1}
@@ -83,7 +69,7 @@ GameObject:
   - component: {fileID: 7643708672770983718}
   - component: {fileID: 8930352213948299933}
   m_Layer: 14
-  m_Name: Cube
+  m_Name: bg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
