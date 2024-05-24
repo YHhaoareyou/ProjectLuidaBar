@@ -11,9 +11,6 @@ GameObject:
   - component: {fileID: 2790192763856115439}
   - component: {fileID: 2790192763856115436}
   - component: {fileID: 2790192763856115437}
-  - component: {fileID: 2790192763856115438}
-  - component: {fileID: 2790192763856115442}
-  - component: {fileID: 2790192763856115443}
   m_Layer: 0
   m_Name: QuestInfo
   m_TagString: Untagged
@@ -30,7 +27,7 @@ RectTransform:
   m_GameObject: {fileID: 2790192763856115432}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 2.6258736}
-  m_LocalScale: {x: 0.014732353, y: 0.014732353, z: 0.014732353}
+  m_LocalScale: {x: 0.00296388, y: 0.00296388, z: 0.00296388}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2790192763936943437}
@@ -76,68 +73,6 @@ MonoBehaviour:
   sourceCodeAsset: {fileID: 5022602860645237092, guid: 2d596c53318874c93b30998333879960,
     type: 3}
   sourceCode: 
---- !u!114 &2790192763856115438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2790192763856115432}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce2b9f4eb5444df69e31db5c54e12447, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  globalGimmickKey:
-    key:
-      target: 1
-      key: DisplayQuestInfo
-    item: {fileID: 0}
---- !u!1818360610 &2790192763856115442
-ScaleConstraint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2790192763856115432}
-  m_Enabled: 1
-  m_Weight: 1
-  m_ScaleAtRest: {x: 0.014732353, y: 0.014732353, z: 0.014732353}
-  m_ScaleOffset: {x: 0.010141391, y: 0.010141391, z: 0.010141391}
-  m_AffectScalingX: 1
-  m_AffectScalingY: 1
-  m_AffectScalingZ: 1
-  m_IsContraintActive: 1
-  m_IsLocked: 1
-  m_Sources:
-  - sourceTransform: {fileID: 0}
-    weight: 1
---- !u!1773428102 &2790192763856115443
-ParentConstraint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2790192763856115432}
-  m_Enabled: 1
-  m_Weight: 1
-  m_TranslationAtRest: {x: 0, y: 0, z: 0}
-  m_RotationAtRest: {x: 0, y: 0, z: 0}
-  m_TranslationOffsets:
-  - {x: 0, y: 0, z: 0}
-  m_RotationOffsets:
-  - {x: 0, y: 0, z: 0}
-  m_AffectTranslationX: 1
-  m_AffectTranslationY: 1
-  m_AffectTranslationZ: 1
-  m_AffectRotationX: 1
-  m_AffectRotationY: 1
-  m_AffectRotationZ: 1
-  m_IsContraintActive: 1
-  m_IsLocked: 1
-  m_Sources:
-  - sourceTransform: {fileID: 0}
-    weight: 1
 --- !u!1 &2790192763936943438
 GameObject:
   m_ObjectHideFlags: 0
